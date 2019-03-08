@@ -3,7 +3,3 @@
        <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
  	<div class="grid-bottom"><b>주소</b></div>
-</div>
-
-</body>
-</html>
