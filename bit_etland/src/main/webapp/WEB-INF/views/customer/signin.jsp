@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<jsp:include page="../home/top.jsp"/>
+
 <link rel="stylesheet" 
 	href="${css}/employee/register.css" />
 <div class="grid-item" id="side_menu">
@@ -14,13 +14,13 @@
  	<div class="input-group input-group-lg">
  		 <span class="input-group-addon" id="sizing-addon1">ID</span>
  		 <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1" 
-  				name="customerid" id="customerid" value="go"/>
+  				name="customerID" id="customerID" value="aguero"/>
 	</div>
 
 	<div class="input-group input-group-lg">
  		 <span class="input-group-addon" id="sizing-addon1">비밀번호</span>
  		 <input type="text" class="form-control" placeholder="password" aria-describedby="sizing-addon1" 
-  				name="cpassword" id="cpassword" value="1111"/>
+  				name="cpassword" id="password" value="1234"/>
 	</div>
   <h4>가입한 ID, 비밀번호를 입력하세요.</h4>
   <div class="row">
@@ -43,12 +43,12 @@
 </section>
 
 </div>
-<jsp:include page="../home/bottom.jsp"/>
+
 <script>
 $('#confirm_btn').click(function(){
-	var customerid = $('#customerid').val();
-	var cpassword = $('#cpassword').val();
-	$('#form').attr('action','${ctx}/customer.do')
+	$('#form')
+	.attr('method', 'POST')
+	.attr('action','${ctx}/customer/signin')
 	.submit();
 });
 

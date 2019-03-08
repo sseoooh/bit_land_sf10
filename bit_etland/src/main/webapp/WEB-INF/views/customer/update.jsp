@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<jsp:include page="../home/top.jsp"/>
+
 <link rel="stylesheet" 
 	href="${css}/customer/list.css" />
 <link rel="stylesheet" href="${css}/customer/navi_bar.css" />
@@ -47,7 +47,7 @@
 </div>
 
 
-<jsp:include page="../home/bottom.jsp"/>
+
 <script>
 $('#update_access').attr('style','cursor:pointer').click(function(){
 	 var form = $('#form');

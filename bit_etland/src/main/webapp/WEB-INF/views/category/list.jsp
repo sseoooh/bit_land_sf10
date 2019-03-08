@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<jsp:include page="../home/top.jsp"/>
+
 <link rel="stylesheet" 
 	href="${css}/customer/list.css" />
 <link rel="stylesheet" href="${css}/customer/navi_bar.css" />
 <div class="grid-item" id="navi_bar">
-	<jsp:include page="../home/post-navi-bar.jsp"/>
+	
 	</div>
 	
  <div class="grid" id="side-menu">

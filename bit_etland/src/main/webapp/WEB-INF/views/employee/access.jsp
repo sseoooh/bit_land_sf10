@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<jsp:include page="../home/top.jsp"/>
+
 <link rel="stylesheet" 
 	href="${css}/employee/register.css" />
 <div class="grid-item" id="side_menu">
@@ -34,7 +34,7 @@
 </section>
 
 </div>
-<jsp:include page="../home/bottom.jsp"/>
+
 <script>
 $('#confirm_btn').click(function(){
 	var empno = $('#empno').val();

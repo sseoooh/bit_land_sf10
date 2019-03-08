@@ -33,7 +33,7 @@
 		location.assign('customer.do?cmd=move&page=signup');
 	});
 	$('#cust_login').click(function(){
-		location.assign('customer.do?cmd=move&page=signin');
+		location.assign('${ctx}/move/customer/signin');
 	});
 
 	$('#emp_register').click(function(){

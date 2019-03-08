@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
- <jsp:include page="../home/top.jsp"/>
+
     <link rel="stylesheet" href="${css}/home/main.css" />
 <link rel="stylesheet" href="${css}/customer/navi_bar.css" />
 <div class="grid-item" id="navi_bar">
-	<jsp:include page="../home/post-navi-bar.jsp"/>
+	
 
 	</div>
 
@@ -48,7 +48,7 @@
   </div>
 	
 
-<jsp:include page="../home/bottom.jsp"/>
+
 <script>
 $('#li_nav_7').click(function(){
 	alert('마이페이지 클릭');

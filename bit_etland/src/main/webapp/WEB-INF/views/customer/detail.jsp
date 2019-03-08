@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<jsp:include page="../home/top.jsp"/>
+
 
 
 <link rel="stylesheet" 
 	href="${css}/customer/list.css" />
 <link rel="stylesheet" href="${css}/customer/navi_bar.css" />
 <div class="grid-item" id="navi_bar">
-	<jsp:include page="../home/post-navi-bar.jsp"/>
+	
 	</div>
 <div class="grid-item" id="content">
 	<div class="grid-item" id="content">
@@ -70,7 +70,7 @@
 	</div>
 </div>
 
-<jsp:include page="../home/bottom.jsp"/>
+
 <script>
 $('#update_btn').attr('style','cursor:pointer').click(function(){
 	location.assign('${ctx}/customer.do?cmd=cust_retrieve&page=update&customer_id=${cust.customerID}');
